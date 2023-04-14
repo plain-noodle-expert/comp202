@@ -1,0 +1,3 @@
+For question2, writing a function special_order( ), I accidentally wrote the if condition as  if guacamole == “yes” or “y” and no matter what guacamole is, the boolean expression was always evaluated as True, and added the SPECIAL_INGREDIENT_COST. It is confusing to me as “y” should not be evaluated to True. The situation did not change when I added a parentheses
+ between(“yes” or “y”)
+I use math.asin and public test keeps telling me that it is prohibited to use while I think asin and acos and atan are all covered in class. But for the purpose of passing the test, I change asin to acos using 1 - sin**2 which makes the code look more redundant.
